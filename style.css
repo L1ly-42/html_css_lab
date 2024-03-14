@@ -1,7 +1,7 @@
 /* Header Styling */
 
 .header{
-    background-color: darkblue;
+    background-color: #004085;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -31,7 +31,7 @@
 /* Navigation bar styling */
 
 header nav {
-    background-color: blue;
+    background-color: darkblue;
     width: 100%;
     display: flex;
     justify-content: space-around;
@@ -95,5 +95,11 @@ main h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
-
 }
+
+footer div {
+    text-align: center;
+    background-color: #004085;
+    color: white;
+}
+
