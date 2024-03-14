@@ -16,6 +16,7 @@
 #searchbar {
     text-align: center;
     width: 60%;
+    font-size:xx-large;
 }
 
 .header__icons{
@@ -27,6 +28,7 @@
 #account, #google_map_finder, #basket{
     width: 30%;
 }
+
 
 /* Navigation bar styling */
 
@@ -81,12 +83,13 @@ main h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    text-align: center;
-    width: 20%;
+    margin: auto;
+    width: 40%;
 }
 
 .contact__text {
     font-size:x-large;
+    text-align: center;
 }
 
 .contact div form input {
@@ -95,6 +98,8 @@ main h1 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
+    width: 60;
+    font-size: x-large;
 }
 
 footer div {
@@ -102,4 +107,3 @@ footer div {
     background-color: #004085;
     color: white;
 }
-
