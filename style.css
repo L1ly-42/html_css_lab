@@ -69,3 +69,31 @@ main h1 {
 .featured_icons div {
     border: solid;
 }
+
+/* Contact section styling */
+.contact {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contact__icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    text-align: center;
+    width: 20%;
+}
+
+.contact__text {
+    font-size:x-large;
+}
+
+.contact div form input {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5%;
+
+}
