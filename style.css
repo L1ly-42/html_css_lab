@@ -44,8 +44,14 @@ header nav a {
     color: white;
 }
 
+/* Main section styling */
+
+.second_navigation, .Featured {
+    width: 95%;
+    margin: auto;
+}
+
 main img{
-    text-align: center;
     width: 100%;
 }
 
