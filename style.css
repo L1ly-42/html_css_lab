@@ -1,0 +1,44 @@
+/* Header Styling */
+
+.header{
+    background-color: darkblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header h1{
+    width: 40%;
+    font-size: xxx-large;
+    color: white;
+}
+
+#searchbar {
+    text-align: center;
+    width: 60%;
+}
+
+.header__icons{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+#account, #google_map_finder, #basket{
+    width: 30%;
+}
+
+/* Navigation bar styling */
+
+header nav {
+    background-color: blue;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+header nav a {
+    padding: 20px;
+    color: white;
+}
+

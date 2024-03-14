@@ -10,8 +10,21 @@
 
 <body>
     <header>
-        <h1> WHSmith</h1>
-        <img src = Assets/image_360.png alt = "image of search bar"></img>        
+        <section class = "header">
+            <h1> WHSmith</h1>
+            <form id="searchbar"> 
+                <input type="search" id="query" name="q" placeholder="Search...">
+                <button>Search</button>
+              </form>
+
+            <div class = "header__icons"> 
+                <img id= "account" src = Assets/image_360-3.png alt = "Account symbol"></img>
+                <img id= "google_map_finder" src = Assets/image_360-1.png alt = "Google maps finder icon"></img>
+                <img id= "basket" src = Assets/image_360-2.png alt = "Image of shopping basket"></img> 
+            </div>
+        </section>
+    
+        
         <nav id = "nav">
             <a href="#">Sales & Offers</a>
             <a href="#">Books</a>
@@ -24,9 +37,6 @@
             <a href="#">Gits & Cards</a>
             <a href="#">Money</a>
         </nav>
-        <img src = Assets/image_360-3.png alt = "Account symbol"></img>
-        <img src = Assets/image_360-1.png alt = "Google maps finder icon"></img>
-        <img src = Assets/image_360-2.png alt = "Image of shopping basket"></img>
     </header>
     <main>
 
