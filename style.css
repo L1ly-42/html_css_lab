@@ -107,3 +107,7 @@ footer div {
     background-color: #004085;
     color: white;
 }
+
+footer div p {
+    font-size: larger;
+}
